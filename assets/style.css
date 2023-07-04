@@ -1,0 +1,26 @@
+#side-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 16rem;
+    padding: 2rem 1rem;
+    background-color: #f8f9fa;
+}
+
+#page-content {
+    margin-left: 18rem;
+    margin-right: 2rem;
+    padding: 2rem 1rem;
+}
+
+#nav-bar .nav-link.active {
+    background-color: #00a75d;
+    color: #ffffff;
+}
+
+.custom-link-active {
+    background: rgba(0, 167, 93, 0.6) !important;
+    color: #fff !important;
+    border-radius: 8px !important;
+}
